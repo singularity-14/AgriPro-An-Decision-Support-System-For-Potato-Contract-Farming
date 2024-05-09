@@ -1,0 +1,24 @@
+{
+    "main": {
+        "sh_client_id": "938d1485-f5fd-4066-8f06-8beb2a8fcf5a",
+        "sh_client_secret": "82K0nTrI5S7aQQU3S17KHM3296IqtlPo",
+        "data_output_folder": "temp_dir"
+    },
+    "potato_canopy_cover": {
+        "cc_ml_model": "/content/drive/MyDrive/new_models/potato_canopy_cover-20240422T094738Z-001/potato_canopy_cover",
+        "output_folder":"agri_crop/image/potato/canopy_cover"
+
+    },
+    "potato_stand_count": {
+        "sc_ml_model": "/content/drive/MyDrive/new_models/potato_canopy_cover-20240422T094738Z-001/potato_canopy_cover",
+        "output_folder":"agri_crop/image/potato/stand_count"
+    },
+    "potato_disease_prediction": {
+        "dl_model":"/content/drive/MyDrive/internship/B - with GDAL/agri_crop_models/potato/potato_disease_prediction_cnn",
+        "output_folder":"agri_crop/image/potato/disease_prediction"
+    },
+    "potato_plant_stress": {
+        "output_folder":"agri_crop/image/potato/plant_stress"
+    }
+}
+
